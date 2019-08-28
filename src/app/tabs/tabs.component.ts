@@ -3,7 +3,7 @@ import { TabsetComponent } from 'ngx-bootstrap';
  
 @Component({
   selector: 'demo-tabs-manual-selection',
-  templateUrl: './manual-selection.html'
+  templateUrl: './tabs.component.html'
 })
 export class DemoTabsManualSelectionComponent {
   @ViewChild('staticTabs', { static: false }) staticTabs: TabsetComponent;
